@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/hTTPCalloutInLWC": [
+                "hTTPCalloutInLWC/hTTPCalloutInLWC.js"
+            ],
+            "c/createAccountRecordInLWC": [
+                "createAccountRecordInLWC/createAccountRecordInLWC.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
